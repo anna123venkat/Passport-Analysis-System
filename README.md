@@ -1,9 +1,5 @@
 # Passport Analytical System
 
-##  Project Overview
-
-The **Passport Analytical System** is a web-based application built using the **MERN stack** (MongoDB, Express.js, React, Node.js) to analyze and visualize passport-related data. It provides insights into passport issuance trends, revenue generation, and user analytics.
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -18,6 +14,12 @@ The **Passport Analytical System** is a web-based application built using the **
 7. [Screenshots](#screenshots)
 8. [References](#references)
 9. [Contributors](#contributors)
+
+---
+
+##  Project Overview
+
+The **Passport Analytical System** is a web-based application built using the **MERN stack** (MongoDB, Express.js, React, Node.js) to analyze and visualize passport-related data. It provides insights into passport issuance trends, revenue generation, and user analytics.
 
 ---
 
@@ -42,24 +44,45 @@ The **Passport Analytical System** is a web-based application built using the **
 
 ```
 Passport-Analysis-System/
-│── backend/                  # Backend (Node.js, Express, MongoDB)
-│   ├── config/               # Database configurations
-│   ├── controllers/          # API controllers
-│   ├── models/               # Mongoose schemas
-│   ├── routes/               # API routes
-│   ├── middleware/           # Authentication middleware
-│   ├── .env                  # Environment variables
-│   ├── server.js             # Main backend entry point
-│   ├── package.json          # Backend dependencies
-│── frontend/                 # Frontend (React, Ant Design)
-│   ├── src/                  # React source files
-│   ├── public/               # Public assets
-│   ├── package.json          # Frontend dependencies
-│── docs/                     # Documentation
-│   ├── README.md             # Project overview and setup
-│   ├── API_DOCS.md           # API documentation
-│── .gitignore                # Git ignore file
-│── README.md                 # Project overview
+│── backend
+│   │── config
+│   │   └── db.js
+│   │── controllers
+│   │   ├── loginCtrl.js
+│   │   ├── queryCtrl.js
+│   │   ├── queryCtrl1.js
+│   │   ├── queryCtrl2.js
+│   │   ├── userCtrl.js
+│   │── middleware
+│   │   └── authMiddleware.js
+│   │── models
+│   │   ├── loginModel.js
+│   │   ├── userModel.js
+│   │── routes
+│   │   └── userRoutes.js
+│   │── data
+│   │   └── Passport.csv
+│   │── docs
+│   │   ├── API_DOCS.md
+│   │   ├── DB_SCHEMA.md
+│   │   ├── INSTALLATION_GUIDE.md
+│   │   └── screenshots
+│   │       ├── Analysis_Page.png
+│   │       ├── Home_Page.png
+│   │       ├── Login_Page.png
+│   │── .env
+│   │── package-lock.json
+│   │── package.json
+│   │── server.js
+│
+│── frontend
+│   │── public
+│   │── src
+│   │── .gitignore
+│   │── README.md
+│   │── package-lock.json
+│   │── package.json
+
 ```
 
 ---
