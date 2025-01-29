@@ -126,12 +126,6 @@ npm start
 
 ## References
 
-To properly reference external sources and documentation in your README file, you can use the following format for citing relevant materials:
-
----
-
-## References
-
 1. **MERN Stack Documentation**: For more information on the MERN stack, check the official documentation:
    - [MongoDB](https://www.mongodb.com/docs/)
    - [Express.js](https://expressjs.com/)
