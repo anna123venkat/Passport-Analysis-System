@@ -1,0 +1,78 @@
+/* Styles for the Query1 container */
+.query1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #002950;
+    padding: 20px;
+}
+
+.query1-sub {
+    background-color: #9d9d9d;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px; /* Increase the max-width for a slightly bigger form */
+    padding: 20px;
+}
+
+.label {
+    flex: 1; /* Labels take up 1/3 of the space */
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right; /* Right-align the labels */
+}
+
+
+
+/* Style for the Submit button */
+button[type='submit'] {
+    background-color: #4CAF50; /* Button background color */
+    color: #fff; /* Button text color */
+    border: #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block; /* Center the button horizontally */
+}
+
+/* Style for the Submit button on hover */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for the select input */
+select {
+    width: 100%; /* Adjust the width to make the select boxes fill the available space */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Style for the table */
+.query-result table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000; /* Add a border around the table */
+}
+
+/* Style for table headers */
+.query-result table th {
+    border: 1px solid #000; /* Add borders to table headers */
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style for table cells */
+.query-result table td {
+    border: 1px solid #000; /* Add borders to table cells */
+    padding: 10px;
+}
+
+/* Style for odd table rows */
+.query-result table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}

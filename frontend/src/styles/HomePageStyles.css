@@ -1,0 +1,81 @@
+/* Styles for the home page container */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #002950;
+  padding: 20px;
+  background-image: url('E:\Tim\sem 5\NoSQL project\Proj\frontend\public\images\back1.jpg'); /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+  background-size: cover; /* This will scale the image to cover the entire body element */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  background-position: center;
+}
+
+/* Styles for the "indian-emblems" section */
+.indian-emblems-home {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.heading {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.5); /* Background color with 50% transparency */
+  padding: 10px;
+  
+}
+
+/* Style the images */
+.indian-emblems-home img {
+  max-width: 100px;
+  /* Adjust the size as needed */
+  margin: 0 20px;
+  /* Add some margin between the images and the heading */
+}
+
+/* Styles for the "home-content" section */
+.home-content {
+  text-align: center;
+  max-width: 800px;
+  /* Adjust the maximum width as needed */
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* Background color with 50% transparency */
+  padding: 10px;
+}
+
+/* Styles for the heading */
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  
+}
+
+/* Styles for the paragraph */
+.home-content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #000000;
+
+}
+
+/* Styles for the action links */
+.action-link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #007bff;
+  /* Change the link color as needed */
+  color: #fff;
+  /* Text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.action-link:hover {
+  background-color: #0056b3;
+  /* Change the hover color as needed */
+}

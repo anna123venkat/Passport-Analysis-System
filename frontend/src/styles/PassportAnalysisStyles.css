@@ -1,0 +1,62 @@
+/* Styles for the Passport Analysis container */
+.passport-analysis-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #000000;
+    background-color: #002950;
+    border-radius: 10px; /* Rounded edges */
+}
+
+.passport-analysis-heading {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the images */
+.passport-analysis-heading img {
+    max-width: 100px; /* Adjust the size as needed */
+    margin: 0 20px; /* Add some margin between the images and the heading */
+}
+
+/* Style for the query links */
+ol {
+    text-align: left;
+    list-style-type: decimal;
+    color: #000000;
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Style for the query links (active state) */
+ol li a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+ol li a:hover {
+    font-weight: bold;
+}
+
+/* Style for the passport-analysis-queries container */
+.passport-analysis-queries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #9d9d9d;
+    border-radius: 10px; /* Rounded edges */
+    color: #000000; /* Set text color to black */
+}
+
+h1, h2 {
+    color: #000000; /* Set text color of headings to white */
+}

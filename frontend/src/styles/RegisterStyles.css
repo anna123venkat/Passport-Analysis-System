@@ -1,0 +1,80 @@
+/* Styles for the Register form container */
+.register-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #002950; /* Change the background color to a suitable color */
+    padding: 20px;
+  }
+  .indian-emblems {
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .register-heading{
+    color: #000000;
+  }
+
+  /* Style the images */
+  .indian-emblems img {
+    max-width: 100px; /* Adjust the size as needed */
+    margin: 0 94px 10px; /* Add some margin between the images and the heading */
+  }
+  
+  
+  /* Styles for the Register form */
+  .Register-form {
+    width: 100%;
+    max-width: 900px; /* Increase the max-width for a slightly bigger form */
+    padding: 20px;
+    background-color: #9d9d9d; /* Change the background color to your desired color */
+    border-radius: 10px; /* Increase the border radius for rounded corners */
+    box-shadow: 0 2px 10px rgba(231, 233, 237, 0.1);
+    color: #fff;
+  }
+  
+  /* Center the Register form on the page */
+  .text-center {
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Styles for the Back to Home link */
+  .back-to-home {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the Register button */
+  button[type='submit'] {
+    background-color: #4CAF50; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049; /* Hover state background color */
+  }
+  
+  /* Styles for the labels in the form */
+  .ant-form-item-label label {
+    font-size: 16px; /* Increase label font size */
+    color: #000; /* Set label text color to black */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  /* White text for input descriptions */
+  .ant-form-item-label label + .ant-form-item-control-input-content {
+    color: #ffffff;
+  }
+  
